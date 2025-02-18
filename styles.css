@@ -35,14 +35,12 @@ body {
 
 .shield-icon {
     filter: drop-shadow(0 0 5px rgba(0, 255, 0, 0.5));
-    margin-top: 25px;
     animation: pulse 2s infinite;
 }
 
 .logo-text {
     font-family: 'Blender Pro', sans-serif;
     font-size: 1.5rem;
-    margin-top: 25px;
     letter-spacing: 1px;
     display: flex;
     gap: 0.25rem;
