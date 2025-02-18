@@ -35,6 +35,7 @@ body {
 
 .shield-icon {
     filter: drop-shadow(0 0 5px rgba(0, 255, 0, 0.5));
+    margin-top: 25px;
     animation: pulse 2s infinite;
 }
 
