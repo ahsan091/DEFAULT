@@ -1,9 +1,9 @@
 // Countdown Timer
 function updateCountdown() {
     const now = new Date();
-    let future = new Date(now.getFullYear(), now.getMonth(), 25);
+    let future = new Date(now.getFullYear(), now.getMonth(), 28);
 
-    if (now.getDate() > 25) {
+    if (now.getDate() > 28) {
         future.setMonth(future.getMonth() + 1);
     }
 
